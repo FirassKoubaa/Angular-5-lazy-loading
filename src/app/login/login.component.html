@@ -1,0 +1,6 @@
+<form [formGroup]="rForm" (ngSubmit)="addPost(rForm.value)">
+  <h4>LOG IN</h4>
+  <input  type="text" formControlName="uname" placeholder="Email">
+  <input  type="password"  formControlName="password" placeholder="Password">
+  <button type="submit">LOGIN</button>
+</form>
